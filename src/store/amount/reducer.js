@@ -20,3 +20,5 @@ export default (state = initialState, action) => {
   return state;
 
 };
+
+export const selectCurrentAmount = state => state.amountReducer.amount
